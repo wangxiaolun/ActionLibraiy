@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonJointSkin" width="400" height="738" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16cbe11a439" ></w:Config>
+	<e:Image source="people_png" width="356" height="738" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="img_1" width="114" height="114" source="commonBulls_png" horizontalCenter="0" verticalCenter="-299" name="img_1"/>
+	<e:Image id="img_2" width="90" height="90" source="commonBulls_png" horizontalCenter="-112" verticalCenter="-170" name="img_2"/>
+	<e:Image id="img_3" width="90" height="90" source="commonBulls_png" verticalCenter="-170" horizontalCenter="112" name="img_3"/>
+	<e:Image id="img_4" width="90" height="90" source="commonBulls_png" verticalCenter="-73" horizontalCenter="-120" name="img_4"/>
+	<e:Image id="img_5" width="90" height="90" source="commonBulls_png" horizontalCenter="120" verticalCenter="-73" name="img_5"/>
+	<e:Image id="img_6" width="90" height="90" source="commonBulls_png" verticalCenter="30" horizontalCenter="-146" name="img_6"/>
+	<e:Image id="img_7" width="90" height="90" source="commonBulls_png" verticalCenter="30" horizontalCenter="146" name="img_7"/>
+	<e:Image id="img_8" width="90" height="90" source="commonBulls_png" verticalCenter="-119" horizontalCenter="0" name="img_8"/>
+	<e:Image id="img_9" width="90" height="90" source="commonBulls_png" horizontalCenter="0" verticalCenter="2" name="img_9"/>
+	<e:Image id="img_10" width="90" height="90" source="commonBulls_png" horizontalCenter="-50" verticalCenter="180" name="img_10"/>
+	<e:Image id="img_11" width="90" height="90" source="commonBulls_png" horizontalCenter="50" verticalCenter="180" name="img_11"/>
+</e:Skin>

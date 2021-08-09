@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" xmlns:ui="ui.*"
+        class="SetUpSkin">
+	<e:Button id="btn_save" label="" verticalCenter="-36" left="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="saveBtnImg_png" source.down="saveBtnImg_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_cancle" label="" verticalCenter="160" left="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="cancleBtnImg_png" source.down="cancleBtnImg_png"
+				         source.disabled="cancleBtnImg_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<ui:CommonSetting id="btn_time" left="415" verticalCenter="0"/>
+	<ui:CommonSetting id="btn_task" left="1125" verticalCenter="0"/>
+</e:Skin>

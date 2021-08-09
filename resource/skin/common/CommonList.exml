@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="275" height="170">
+	<w:Config id="16c7481aa48" ></w:Config>
+	<e:Group id="group_panel" horizontalCenter="0" top="0"/>
+</e:Skin>

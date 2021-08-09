@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonFinishSkin" width="400" height="576" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c8e2bd3e7" ></w:Config>
+	<e:Image left="0" right="0" bottom="0" source="finishBg_png" alpha="0.6"/>
+	<e:Image id="img_icon" width="170" height="170" horizontalCenter="0" top="0"/>
+	<e:Label id="label_name" text="测试区玩" horizontalCenter="0" italic="true" fontFamily="Microsoft YaHei" size="36" textColor="0x333333" top="180" textAlign="center" width="400" height="40" verticalAlign="middle"/>
+	<e:Label text="训练完成！" top="249" horizontalCenter="20" fontFamily="Microsoft YaHei" italic="true" bold="true" size="48" textColor="0x333333" width="400" textAlign="center" verticalAlign="middle" height="50"/>
+	<e:Label id="label_tagOne" text="0次" horizontalCenter="0" italic="true" fontFamily="Microsoft YaHei" size="36" textColor="0x333333" top="349" textAlign="center" width="400" height="40" verticalAlign="middle"/>
+	<e:Label id="label_tagType" text="完成时间" horizontalCenter="0" top="438" italic="true" fontFamily="Microsoft YaHei" size="36" textColor="0x333333" width="400" textAlign="center" verticalAlign="middle" height="40"/>
+	<e:Label id="label_tagTwo" text="00′00″000" top="488" horizontalCenter="0" textAlign="center" italic="true" bold="true" size="48" fontFamily="雅黑" textColor="0xff0000" width="400" height="50" verticalAlign="middle"/>
+</e:Skin>

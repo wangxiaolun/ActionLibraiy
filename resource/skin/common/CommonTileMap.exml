@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonTileMapSkin" width="592" height="710" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="16ccb88aac7" ></w:Config>
+	<e:Group id="group_container" left="0" top="0" bottom="0" right="0">
+	</e:Group>
+	<e:Image id="img_touch" source="finishBg_png" left="0" top="-140" bottom="400" right="0" alpha="0"/>
+</e:Skin>

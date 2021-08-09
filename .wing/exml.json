@@ -1,0 +1,73 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": true,
+    "globalRulerEnable": false,
+    "globalAdsorbEnable": true
+  },
+  "16cb7f65720": {
+    "path": "core\\view\\main\\common\\CommonFlower.ts",
+    "class": "CommonFlower",
+    "parentPath": ""
+  },
+  "16cb882f03a": {
+    "path": "core\\view\\main\\common\\CommonDarts.ts",
+    "class": "CommonDarts",
+    "parentPath": ""
+  },
+  "16cb8dcdbda": {
+    "path": "core\\view\\main\\common\\CommonTable.ts.ts",
+    "class": "CommonTable.ts",
+    "parentPath": ""
+  },
+  "16cb8e0abea": {
+    "path": "core\\view\\main\\common\\CommonTableItem.ts",
+    "class": "CommonTableItem",
+    "parentPath": ""
+  },
+  "16cbd4d8962": {
+    "path": "core\\view\\main\\common\\CommonStone.ts",
+    "class": "CommonStone",
+    "parentPath": ""
+  },
+  "16cbd558a4f": {
+    "path": "core\\view\\main\\common\\CommonStoneItem.ts",
+    "class": "CommonStoneItem",
+    "parentPath": ""
+  },
+  "16cbdbf0715": {
+    "path": "core\\view\\main\\common\\CommonKiteItem.ts",
+    "class": "CommonKiteItem",
+    "parentPath": ""
+  },
+  "16cbe11a439": {
+    "path": "core\\view\\main\\common\\CommonJoint.ts",
+    "class": "CommonJoint",
+    "parentPath": ""
+  },
+  "16ccb88aac7": {
+    "path": "core\\view\\main\\common\\CommonTileMap.ts",
+    "class": "CommonTileMap",
+    "parentPath": ""
+  },
+  "16cf51b78bf": {
+    "path": "core\\view\\main\\common\\CommonVideoItem.ts",
+    "class": "CommonVideoItem",
+    "parentPath": ""
+  },
+  "16e867b4c89": {
+    "path": "core\\view\\main\\common\\CommonRainItem.ts",
+    "class": "CommonRainItem",
+    "parentPath": ""
+  },
+  "172ff85b40d": {
+    "backgroundType": "null",
+    "backgroundImage": "C:\\Users\\Administrator\\Desktop\\微信图片_20200629180103.png",
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonRainItemSkin" width="119" height="195" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e867b4c89" ></w:Config>
+	<e:Image id="img_rain" width="119" height="195" verticalCenter="0" horizontalCenter="0" source="commonRain_png"/>
+</e:Skin>

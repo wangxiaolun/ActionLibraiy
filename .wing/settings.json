@@ -1,0 +1,6 @@
+{
+	"search.exclude": {
+		"**/bin-debug": false,
+		"**/bin-release": false
+	}
+}

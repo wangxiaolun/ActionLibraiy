@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="85" height="85" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="CommonListItemSkin">
+	<e:Image id="img_icon" width="85" height="85" verticalCenter="0" horizontalCenter="0"/>
+
+</e:Skin>

@@ -1,0 +1,859 @@
+{
+	"groups": [
+		{
+			"keys": "PreLoadingBar_png,PreLoadingBarBg_png,bg1_png,loadingCircle_png,tipsBg_png,template_json,ccty_TTF",
+			"name": "preload"
+		},
+		{
+			"keys": "ani_diamon_png,wallS_png,ani_diamon_json,wallS_json,circle_png,commonBulls_png,commonDarts_png,commonDumbbel_png,commonFlower_png,commonHeart_png,commonRain_png,commonRainBg_png,commonRoad_png,commonTriangle_png,commonlinear_png,finishRoad_png,gray_kite_png,gray_stone_png,people_png,red_kite_png,red_stone_png,runway_png,table_gray_1_png,table_gray_2_png,table_gray_3_png,table_gray_4_png,table_gray_5_png,table_gray_6_png,table_gray_7_png,table_gray_8_png,table_gray_9_png,table_red_1_png,table_red_2_png,table_red_3_png,table_red_4_png,table_red_5_png,table_red_6_png,table_red_7_png,table_red_8_png,table_red_9_png,wrightBg_png,bg10_png,bg2_png,bg3_png,bg4_png,bg5_png,bg6_png,bg7_png,bg8_png,bg9_png,s_bg1_png,s_bg10_png,s_bg11_png,s_bg12_png,s_bg13_png,s_bg14_png,s_bg15_png,s_bg16_png,s_bg17_png,s_bg18_png,s_bg19_png,s_bg2_png,s_bg20_png,s_bg21_png,s_bg3_png,s_bg4_png,s_bg5_png,s_bg6_png,s_bg7_png,s_bg8_png,s_bg9_png,bg_mp3,bg1_mp3,bg10_mp3,bg11_mp3,bg12_mp3,bg13_mp3,bg14_mp3,bg15_mp3,bg2_mp3,bg3_mp3,bg4_mp3,bg5_mp3,bg6_mp3,bg7_mp3,bg8_mp3,bg9_mp3,hit15_mp3,time1_wav,time10_wav,time2_wav,time3_wav,time4_wav,time5_wav,time6_wav,time7_wav,time8_wav,time9_wav,DemonstrationBg_png,Home_tip1_png,IconCenterBg_png,IconLeftBg_png,IconRightBg_png,backBtn_png,btn_containue_png,btn_newChange_png,btn_reset_png,btn_result_png,btn_trim_png,byeBg_png,cancleBtnImg_png,checkAdd_png,checkReduce_png,checkTagBg_png,checkTaskTitle_png,checkTimeTitle_png,editBg_png,exitBtn_png,finishBg_png,gameIconBg_png,godWarBg_png,hotTitleImg_png,list_itemBg_png,list_next_png,list_pre_png,list_titleBg_png,logo_png,nocheckAdd_png,nocheckReduce_png,nocheckTagBg_png,nocheckTaskTitle_png,nocheckTimeTitle_png,pauseBtn_png,rightBgImg_png,saveBtnImg_png,setupImg_png,skipBtn_png,startXLBtn_png,startXLImg_png,teachImg_png,testIcon_png,hit1_mp3,hit2_mp3,hit3_mp3,hit4_mp3,hit5_mp3,hit6_mp3,hit7_mp3,hit8_mp3,hit9_mp3,hit10_mp3,hit11_mp3,hit12_mp3,hit13_mp3,hit14_mp3,roadg_png,roadg_json,wanbaIcon_png,img_rank1_png,img_rank2_png,img_rank3_png,button_long_red_png",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "images/loading/PreLoadingBar.png",
+			"type": "image",
+			"name": "PreLoadingBar_png"
+		},
+		{
+			"url": "images/loading/PreLoadingBarBg.png",
+			"type": "image",
+			"name": "PreLoadingBarBg_png"
+		},
+		{
+			"url": "images/loading/bg1.png",
+			"type": "image",
+			"name": "bg1_png"
+		},
+		{
+			"url": "images/loading/loadingCircle.png",
+			"type": "image",
+			"name": "loadingCircle_png"
+		},
+		{
+			"url": "images/loading/tipsBg.png",
+			"type": "image",
+			"name": "tipsBg_png"
+		},
+		{
+			"url": "images/animation/diamon/ani_diamon.png",
+			"type": "image",
+			"name": "ani_diamon_png"
+		},
+		{
+			"url": "images/animation/wall/wallS.png",
+			"type": "image",
+			"name": "wallS_png"
+		},
+		{
+			"url": "images/animation/diamon/ani_diamon.json",
+			"type": "json",
+			"name": "ani_diamon_json"
+		},
+		{
+			"url": "images/animation/wall/wallS.json",
+			"type": "json",
+			"name": "wallS_json"
+		},
+		{
+			"url": "images/game/circle.png",
+			"type": "image",
+			"name": "circle_png"
+		},
+		{
+			"url": "images/game/commonBulls.png",
+			"type": "image",
+			"name": "commonBulls_png"
+		},
+		{
+			"url": "images/game/commonDarts.png",
+			"type": "image",
+			"name": "commonDarts_png"
+		},
+		{
+			"url": "images/game/commonDumbbel.png",
+			"type": "image",
+			"name": "commonDumbbel_png"
+		},
+		{
+			"url": "images/game/commonFlower.png",
+			"type": "image",
+			"name": "commonFlower_png"
+		},
+		{
+			"url": "images/game/commonHeart.png",
+			"type": "image",
+			"name": "commonHeart_png"
+		},
+		{
+			"url": "images/game/commonRain.png",
+			"type": "image",
+			"name": "commonRain_png"
+		},
+		{
+			"url": "images/game/commonRainBg.png",
+			"type": "image",
+			"name": "commonRainBg_png"
+		},
+		{
+			"url": "images/game/commonRoad.png",
+			"type": "image",
+			"name": "commonRoad_png"
+		},
+		{
+			"url": "images/game/commonTriangle.png",
+			"type": "image",
+			"name": "commonTriangle_png"
+		},
+		{
+			"url": "images/game/commonlinear.png",
+			"type": "image",
+			"name": "commonlinear_png"
+		},
+		{
+			"url": "images/game/finishRoad.png",
+			"type": "image",
+			"name": "finishRoad_png"
+		},
+		{
+			"url": "images/game/gray_kite.png",
+			"type": "image",
+			"name": "gray_kite_png"
+		},
+		{
+			"url": "images/game/gray_stone.png",
+			"type": "image",
+			"name": "gray_stone_png"
+		},
+		{
+			"url": "images/game/people.png",
+			"type": "image",
+			"name": "people_png"
+		},
+		{
+			"url": "images/game/red_kite.png",
+			"type": "image",
+			"name": "red_kite_png"
+		},
+		{
+			"url": "images/game/red_stone.png",
+			"type": "image",
+			"name": "red_stone_png"
+		},
+		{
+			"url": "images/game/runway.png",
+			"type": "image",
+			"name": "runway_png"
+		},
+		{
+			"url": "images/game/table_gray_1.png",
+			"type": "image",
+			"name": "table_gray_1_png"
+		},
+		{
+			"url": "images/game/table_gray_2.png",
+			"type": "image",
+			"name": "table_gray_2_png"
+		},
+		{
+			"url": "images/game/table_gray_3.png",
+			"type": "image",
+			"name": "table_gray_3_png"
+		},
+		{
+			"url": "images/game/table_gray_4.png",
+			"type": "image",
+			"name": "table_gray_4_png"
+		},
+		{
+			"url": "images/game/table_gray_5.png",
+			"type": "image",
+			"name": "table_gray_5_png"
+		},
+		{
+			"url": "images/game/table_gray_6.png",
+			"type": "image",
+			"name": "table_gray_6_png"
+		},
+		{
+			"url": "images/game/table_gray_7.png",
+			"type": "image",
+			"name": "table_gray_7_png"
+		},
+		{
+			"url": "images/game/table_gray_8.png",
+			"type": "image",
+			"name": "table_gray_8_png"
+		},
+		{
+			"url": "images/game/table_gray_9.png",
+			"type": "image",
+			"name": "table_gray_9_png"
+		},
+		{
+			"url": "images/game/table_red_1.png",
+			"type": "image",
+			"name": "table_red_1_png"
+		},
+		{
+			"url": "images/game/table_red_2.png",
+			"type": "image",
+			"name": "table_red_2_png"
+		},
+		{
+			"url": "images/game/table_red_3.png",
+			"type": "image",
+			"name": "table_red_3_png"
+		},
+		{
+			"url": "images/game/table_red_4.png",
+			"type": "image",
+			"name": "table_red_4_png"
+		},
+		{
+			"url": "images/game/table_red_5.png",
+			"type": "image",
+			"name": "table_red_5_png"
+		},
+		{
+			"url": "images/game/table_red_6.png",
+			"type": "image",
+			"name": "table_red_6_png"
+		},
+		{
+			"url": "images/game/table_red_7.png",
+			"type": "image",
+			"name": "table_red_7_png"
+		},
+		{
+			"url": "images/game/table_red_8.png",
+			"type": "image",
+			"name": "table_red_8_png"
+		},
+		{
+			"url": "images/game/table_red_9.png",
+			"type": "image",
+			"name": "table_red_9_png"
+		},
+		{
+			"url": "images/game/wrightBg.png",
+			"type": "image",
+			"name": "wrightBg_png"
+		},
+		{
+			"url": "images/gameBg/bg10.png",
+			"type": "image",
+			"name": "bg10_png"
+		},
+		{
+			"url": "images/gameBg/bg2.png",
+			"type": "image",
+			"name": "bg2_png"
+		},
+		{
+			"url": "images/gameBg/bg3.png",
+			"type": "image",
+			"name": "bg3_png"
+		},
+		{
+			"url": "images/gameBg/bg4.png",
+			"type": "image",
+			"name": "bg4_png"
+		},
+		{
+			"url": "images/gameBg/bg5.png",
+			"type": "image",
+			"name": "bg5_png"
+		},
+		{
+			"url": "images/gameBg/bg6.png",
+			"type": "image",
+			"name": "bg6_png"
+		},
+		{
+			"url": "images/gameBg/bg7.png",
+			"type": "image",
+			"name": "bg7_png"
+		},
+		{
+			"url": "images/gameBg/bg8.png",
+			"type": "image",
+			"name": "bg8_png"
+		},
+		{
+			"url": "images/gameBg/bg9.png",
+			"type": "image",
+			"name": "bg9_png"
+		},
+		{
+			"url": "images/gameBg/s_bg1.png",
+			"type": "image",
+			"name": "s_bg1_png"
+		},
+		{
+			"url": "images/gameBg/s_bg10.png",
+			"type": "image",
+			"name": "s_bg10_png"
+		},
+		{
+			"url": "images/gameBg/s_bg11.png",
+			"type": "image",
+			"name": "s_bg11_png"
+		},
+		{
+			"url": "images/gameBg/s_bg12.png",
+			"type": "image",
+			"name": "s_bg12_png"
+		},
+		{
+			"url": "images/gameBg/s_bg13.png",
+			"type": "image",
+			"name": "s_bg13_png"
+		},
+		{
+			"url": "images/gameBg/s_bg14.png",
+			"type": "image",
+			"name": "s_bg14_png"
+		},
+		{
+			"url": "images/gameBg/s_bg15.png",
+			"type": "image",
+			"name": "s_bg15_png"
+		},
+		{
+			"url": "images/gameBg/s_bg16.png",
+			"type": "image",
+			"name": "s_bg16_png"
+		},
+		{
+			"url": "images/gameBg/s_bg17.png",
+			"type": "image",
+			"name": "s_bg17_png"
+		},
+		{
+			"url": "images/gameBg/s_bg18.png",
+			"type": "image",
+			"name": "s_bg18_png"
+		},
+		{
+			"url": "images/gameBg/s_bg19.png",
+			"type": "image",
+			"name": "s_bg19_png"
+		},
+		{
+			"url": "images/gameBg/s_bg2.png",
+			"type": "image",
+			"name": "s_bg2_png"
+		},
+		{
+			"url": "images/gameBg/s_bg20.png",
+			"type": "image",
+			"name": "s_bg20_png"
+		},
+		{
+			"url": "images/gameBg/s_bg21.png",
+			"type": "image",
+			"name": "s_bg21_png"
+		},
+		{
+			"url": "images/gameBg/s_bg3.png",
+			"type": "image",
+			"name": "s_bg3_png"
+		},
+		{
+			"url": "images/gameBg/s_bg4.png",
+			"type": "image",
+			"name": "s_bg4_png"
+		},
+		{
+			"url": "images/gameBg/s_bg5.png",
+			"type": "image",
+			"name": "s_bg5_png"
+		},
+		{
+			"url": "images/gameBg/s_bg6.png",
+			"type": "image",
+			"name": "s_bg6_png"
+		},
+		{
+			"url": "images/gameBg/s_bg7.png",
+			"type": "image",
+			"name": "s_bg7_png"
+		},
+		{
+			"url": "images/gameBg/s_bg8.png",
+			"type": "image",
+			"name": "s_bg8_png"
+		},
+		{
+			"url": "images/gameBg/s_bg9.png",
+			"type": "image",
+			"name": "s_bg9_png"
+		},
+		{
+			"url": "images/music/bg.mp3",
+			"type": "sound",
+			"name": "bg_mp3"
+		},
+		{
+			"url": "images/music/bg1.mp3",
+			"type": "sound",
+			"name": "bg1_mp3"
+		},
+		{
+			"url": "images/music/bg10.mp3",
+			"type": "sound",
+			"name": "bg10_mp3"
+		},
+		{
+			"url": "images/music/bg11.mp3",
+			"type": "sound",
+			"name": "bg11_mp3"
+		},
+		{
+			"url": "images/music/bg12.mp3",
+			"type": "sound",
+			"name": "bg12_mp3"
+		},
+		{
+			"url": "images/music/bg13.mp3",
+			"type": "sound",
+			"name": "bg13_mp3"
+		},
+		{
+			"url": "images/music/bg14.mp3",
+			"type": "sound",
+			"name": "bg14_mp3"
+		},
+		{
+			"url": "images/music/bg15.mp3",
+			"type": "sound",
+			"name": "bg15_mp3"
+		},
+		{
+			"url": "images/music/bg2.mp3",
+			"type": "sound",
+			"name": "bg2_mp3"
+		},
+		{
+			"url": "images/music/bg3.mp3",
+			"type": "sound",
+			"name": "bg3_mp3"
+		},
+		{
+			"url": "images/music/bg4.mp3",
+			"type": "sound",
+			"name": "bg4_mp3"
+		},
+		{
+			"url": "images/music/bg5.mp3",
+			"type": "sound",
+			"name": "bg5_mp3"
+		},
+		{
+			"url": "images/music/bg6.mp3",
+			"type": "sound",
+			"name": "bg6_mp3"
+		},
+		{
+			"url": "images/music/bg7.mp3",
+			"type": "sound",
+			"name": "bg7_mp3"
+		},
+		{
+			"url": "images/music/bg8.mp3",
+			"type": "sound",
+			"name": "bg8_mp3"
+		},
+		{
+			"url": "images/music/bg9.mp3",
+			"type": "sound",
+			"name": "bg9_mp3"
+		},
+		{
+			"url": "images/music/hit15.mp3",
+			"type": "sound",
+			"name": "hit15_mp3"
+		},
+		{
+			"url": "images/music/time1.wav",
+			"type": "sound",
+			"name": "time1_wav"
+		},
+		{
+			"url": "images/music/time10.wav",
+			"type": "sound",
+			"name": "time10_wav"
+		},
+		{
+			"url": "images/music/time2.wav",
+			"type": "sound",
+			"name": "time2_wav"
+		},
+		{
+			"url": "images/music/time3.wav",
+			"type": "sound",
+			"name": "time3_wav"
+		},
+		{
+			"url": "images/music/time4.wav",
+			"type": "sound",
+			"name": "time4_wav"
+		},
+		{
+			"url": "images/music/time5.wav",
+			"type": "sound",
+			"name": "time5_wav"
+		},
+		{
+			"url": "images/music/time6.wav",
+			"type": "sound",
+			"name": "time6_wav"
+		},
+		{
+			"url": "images/music/time7.wav",
+			"type": "sound",
+			"name": "time7_wav"
+		},
+		{
+			"url": "images/music/time8.wav",
+			"type": "sound",
+			"name": "time8_wav"
+		},
+		{
+			"url": "images/music/time9.wav",
+			"type": "sound",
+			"name": "time9_wav"
+		},
+		{
+			"url": "images/scene/DemonstrationBg.png",
+			"type": "image",
+			"name": "DemonstrationBg_png"
+		},
+		{
+			"url": "images/scene/Home_tip1.png",
+			"type": "image",
+			"name": "Home_tip1_png"
+		},
+		{
+			"url": "images/scene/IconCenterBg.png",
+			"type": "image",
+			"name": "IconCenterBg_png"
+		},
+		{
+			"url": "images/scene/IconLeftBg.png",
+			"type": "image",
+			"name": "IconLeftBg_png"
+		},
+		{
+			"url": "images/scene/IconRightBg.png",
+			"type": "image",
+			"name": "IconRightBg_png"
+		},
+		{
+			"url": "images/scene/backBtn.png",
+			"type": "image",
+			"name": "backBtn_png"
+		},
+		{
+			"url": "images/scene/btn_containue.png",
+			"type": "image",
+			"name": "btn_containue_png"
+		},
+		{
+			"url": "images/scene/btn_newChange.png",
+			"type": "image",
+			"name": "btn_newChange_png"
+		},
+		{
+			"url": "images/scene/btn_reset.png",
+			"type": "image",
+			"name": "btn_reset_png"
+		},
+		{
+			"url": "images/scene/btn_result.png",
+			"type": "image",
+			"name": "btn_result_png"
+		},
+		{
+			"url": "images/scene/btn_trim.png",
+			"type": "image",
+			"name": "btn_trim_png"
+		},
+		{
+			"url": "images/scene/byeBg.png",
+			"type": "image",
+			"name": "byeBg_png"
+		},
+		{
+			"url": "images/scene/cancleBtnImg.png",
+			"type": "image",
+			"name": "cancleBtnImg_png"
+		},
+		{
+			"url": "images/scene/checkAdd.png",
+			"type": "image",
+			"name": "checkAdd_png"
+		},
+		{
+			"url": "images/scene/checkReduce.png",
+			"type": "image",
+			"name": "checkReduce_png"
+		},
+		{
+			"url": "images/scene/checkTagBg.png",
+			"type": "image",
+			"name": "checkTagBg_png"
+		},
+		{
+			"url": "images/scene/checkTaskTitle.png",
+			"type": "image",
+			"name": "checkTaskTitle_png"
+		},
+		{
+			"url": "images/scene/checkTimeTitle.png",
+			"type": "image",
+			"name": "checkTimeTitle_png"
+		},
+		{
+			"url": "images/scene/editBg.png",
+			"type": "image",
+			"name": "editBg_png"
+		},
+		{
+			"url": "images/scene/exitBtn.png",
+			"type": "image",
+			"name": "exitBtn_png"
+		},
+		{
+			"url": "images/scene/finishBg.png",
+			"type": "image",
+			"name": "finishBg_png"
+		},
+		{
+			"url": "images/scene/gameIconBg.png",
+			"type": "image",
+			"name": "gameIconBg_png"
+		},
+		{
+			"url": "images/scene/godWarBg.png",
+			"type": "image",
+			"name": "godWarBg_png"
+		},
+		{
+			"url": "images/scene/hotTitleImg.png",
+			"type": "image",
+			"name": "hotTitleImg_png"
+		},
+		{
+			"url": "images/scene/list_itemBg.png",
+			"type": "image",
+			"name": "list_itemBg_png"
+		},
+		{
+			"url": "images/scene/list_next.png",
+			"type": "image",
+			"name": "list_next_png"
+		},
+		{
+			"url": "images/scene/list_pre.png",
+			"type": "image",
+			"name": "list_pre_png"
+		},
+		{
+			"url": "images/scene/list_titleBg.png",
+			"type": "image",
+			"name": "list_titleBg_png"
+		},
+		{
+			"url": "images/scene/logo.png",
+			"type": "image",
+			"name": "logo_png"
+		},
+		{
+			"url": "images/scene/nocheckAdd.png",
+			"type": "image",
+			"name": "nocheckAdd_png"
+		},
+		{
+			"url": "images/scene/nocheckReduce.png",
+			"type": "image",
+			"name": "nocheckReduce_png"
+		},
+		{
+			"url": "images/scene/nocheckTagBg.png",
+			"type": "image",
+			"name": "nocheckTagBg_png"
+		},
+		{
+			"url": "images/scene/nocheckTaskTitle.png",
+			"type": "image",
+			"name": "nocheckTaskTitle_png"
+		},
+		{
+			"url": "images/scene/nocheckTimeTitle.png",
+			"type": "image",
+			"name": "nocheckTimeTitle_png"
+		},
+		{
+			"url": "images/scene/pauseBtn.png",
+			"type": "image",
+			"name": "pauseBtn_png"
+		},
+		{
+			"url": "images/scene/rightBgImg.png",
+			"type": "image",
+			"name": "rightBgImg_png"
+		},
+		{
+			"url": "images/scene/saveBtnImg.png",
+			"type": "image",
+			"name": "saveBtnImg_png"
+		},
+		{
+			"url": "images/scene/setupImg.png",
+			"type": "image",
+			"name": "setupImg_png"
+		},
+		{
+			"url": "images/scene/skipBtn.png",
+			"type": "image",
+			"name": "skipBtn_png"
+		},
+		{
+			"url": "images/scene/startXLBtn.png",
+			"type": "image",
+			"name": "startXLBtn_png"
+		},
+		{
+			"url": "images/scene/startXLImg.png",
+			"type": "image",
+			"name": "startXLImg_png"
+		},
+		{
+			"url": "images/scene/teachImg.png",
+			"type": "image",
+			"name": "teachImg_png"
+		},
+		{
+			"url": "images/scene/testIcon.png",
+			"type": "image",
+			"name": "testIcon_png"
+		},
+		{
+			"url": "images/music/hit1.mp3",
+			"type": "sound",
+			"name": "hit1_mp3"
+		},
+		{
+			"url": "images/music/hit2.mp3",
+			"type": "sound",
+			"name": "hit2_mp3"
+		},
+		{
+			"url": "images/music/hit3.mp3",
+			"type": "sound",
+			"name": "hit3_mp3"
+		},
+		{
+			"url": "images/music/hit4.mp3",
+			"type": "sound",
+			"name": "hit4_mp3"
+		},
+		{
+			"url": "images/music/hit5.mp3",
+			"type": "sound",
+			"name": "hit5_mp3"
+		},
+		{
+			"url": "images/music/hit6.mp3",
+			"type": "sound",
+			"name": "hit6_mp3"
+		},
+		{
+			"url": "images/music/hit7.mp3",
+			"type": "sound",
+			"name": "hit7_mp3"
+		},
+		{
+			"url": "images/music/hit8.mp3",
+			"type": "sound",
+			"name": "hit8_mp3"
+		},
+		{
+			"url": "images/music/hit9.mp3",
+			"type": "sound",
+			"name": "hit9_mp3"
+		},
+		{
+			"url": "images/music/hit10.mp3",
+			"type": "sound",
+			"name": "hit10_mp3"
+		},
+		{
+			"url": "images/music/hit11.mp3",
+			"type": "sound",
+			"name": "hit11_mp3"
+		},
+		{
+			"url": "images/music/hit12.mp3",
+			"type": "sound",
+			"name": "hit12_mp3"
+		},
+		{
+			"url": "images/music/hit13.mp3",
+			"type": "sound",
+			"name": "hit13_mp3"
+		},
+		{
+			"url": "images/music/hit14.mp3",
+			"type": "sound",
+			"name": "hit14_mp3"
+		},
+		{
+			"url": "images/animation/roadg/roadg.png",
+			"type": "image",
+			"name": "roadg_png"
+		},
+		{
+			"url": "images/animation/roadg/roadg.json",
+			"type": "json",
+			"name": "roadg_json"
+		},
+		{
+			"url": "data/template.json",
+			"type": "json",
+			"name": "template_json"
+		},
+		{
+			"url": "font/ccty.TTF",
+			"type": "bin",
+			"name": "ccty_TTF"
+		},
+		{
+			"url": "images/scene/wanbaIcon.png",
+			"type": "image",
+			"name": "wanbaIcon_png"
+		},
+		{
+			"url": "images/scene/img_rank1.png",
+			"type": "image",
+			"name": "img_rank1_png"
+		},
+		{
+			"url": "images/scene/img_rank2.png",
+			"type": "image",
+			"name": "img_rank2_png"
+		},
+		{
+			"url": "images/scene/img_rank3.png",
+			"type": "image",
+			"name": "img_rank3_png"
+		},
+		{
+			"url": "images/scene/button_long_red.png",
+			"type": "image",
+			"name": "button_long_red_png"
+		}
+	]
+}

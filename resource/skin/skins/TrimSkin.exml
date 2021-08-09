@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" class="TrimSkin">
+	<e:Image id="img_bg" source="bg1_png" top="0" bottom="0" scale9Grid="1889,24,21,34" width="2500"/>
+	<e:Group id="group_logo" left="30" top="30"/>
+	<ns1:CommonGameForm id="game1" horizontalCenter="-623" top="0" bottom="0"/>
+	<ns1:CommonGameForm id="game2" horizontalCenter="0" bottom="0" top="0"/>
+	<ns1:CommonGameForm id="game3" horizontalCenter="623" top="0" bottom="0"/>
+	<e:Group id="group_btn" left="0" top="188" touchEnabled="false">
+		<e:Image id="btn_touch" width="150" height="150" source="wrightBg_png" alpha="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Button id="btn_back" label="" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="backBtn_png" source.down="backBtn_png" source.disabled="backBtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Label text="使用遥控器上下键调整高低，左右调整大小，确认键保存设置。" size="36" fontFamily="Microsoft YaHei" textColor="0x333333" italic="true" bold="true" textAlign="center" horizontalCenter="0" top="25"/>
+
+	<e:Image left="0" right="0" top="0" bottom="0" source="wrightBg_png" alpha="0"/>
+
+
+
+
+
+
+</e:Skin>

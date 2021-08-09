@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonHeartSkin" width="388" height="338" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="heart">
+			<tween:TweenItem target="{img_touch}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}" alpha="{0.5}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250" ease="backOut">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="16cb84eab66" ></w:Config>
+	<e:Image id="img_touch" source="commonHeart_png" width="388" height="338" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

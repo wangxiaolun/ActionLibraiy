@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonFlowerSkin" width="397" height="397" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="flower">
+			<tween:TweenItem target="{img_flower1}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}" rotation="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}" alpha="{0}" rotation="{-360}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}" rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="flower2">
+			<tween:TweenItem target="{img_flower2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}" rotation="{-90}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}" alpha="{0}" rotation="{-450}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250" ease="sineIn">
+					<tween:props>
+						<e:Object rotation="{-90}" scaleX="{1}" scaleY="{1}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="flower3">
+			<tween:TweenItem target="{img_flower3}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}" rotation="{180}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}" alpha="{0}" rotation="{-180}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}" rotation="{180}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="flower4">
+			<tween:TweenItem target="{img_flower4}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}" rotation="{90}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}" alpha="{0}" rotation="{-270}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}" rotation="{90}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="16cb7f65720" ></w:Config>
+	<e:Image id="img_flower1" name="img_flower1" horizontalCenter="0" source="commonFlower_png" width="159" height="156" bottom="215"/>
+	<e:Image id="img_flower2" name="img_flower2" source="commonFlower_png" width="156" height="159" rotation="-90" verticalCenter="0.5" right="218"/>
+	<e:Image id="img_flower3" name="img_flower3" horizontalCenter="0" source="commonFlower_png" width="159" height="156" rotation="180" top="215"/>
+	<e:Image id="img_flower4" height="159" name="img_flower4" source="commonFlower_png" width="156" rotation="90" verticalCenter="0.5" left="218"/>
+	<e:Image id="img_touch" left="0" right="0" top="0" bottom="0" source="commonFlower_png" alpha="0" touchEnabled="true"/>
+</e:Skin>

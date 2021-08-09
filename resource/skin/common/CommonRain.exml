@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonRainSkin" width="453" height="983" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16cbd07e969" ></w:Config>
+	<e:Group id="grou_container" touchEnabled="false" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="img_rain1" source="commonRainBg_png" bottom="30" horizontalCenter="-125" alpha="0.7" touchEnabled="false"/>
+	<e:Image id="img_rain2" source="commonRainBg_png" bottom="30" horizontalCenter="125" alpha="0.7" touchEnabled="false"/>
+	<e:Image id="img_hit1" width="226" height="228" bottom="0" left="0" source="finishBg_png" alpha="0" touchEnabled="false"/>
+	<e:Image id="img_hit2" width="226" height="228" right="0" bottom="0" source="finishBg_png" alpha="0" touchEnabled="false"/>
+</e:Skin>

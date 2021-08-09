@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonStoneSkin" width="527" height="529" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16cbd4d8962" ></w:Config>
+	<ns1:CommonStoneItem id="stone1" left="0" top="0" name="stone1"/>
+	<ns1:CommonStoneItem id="stone2" top="0" horizontalCenter="0" name="stone2"/>
+	<ns1:CommonStoneItem id="stone3" right="0" top="0" name="stone3"/>
+	<ns1:CommonStoneItem id="stone4" verticalCenter="0" left="0" name="stone4"/>
+	<ns1:CommonStoneItem id="stone5" horizontalCenter="0" verticalCenter="0" name="stone5"/>
+	<ns1:CommonStoneItem id="stone6" right="0" verticalCenter="0" name="stone6"/>
+	<ns1:CommonStoneItem id="stone7" left="0" bottom="0" name="stone7"/>
+	<ns1:CommonStoneItem id="stone8" horizontalCenter="0" bottom="0" name="stone8"/>
+	<ns1:CommonStoneItem id="stone9" right="0" bottom="0" name="stone9"/>
+</e:Skin>

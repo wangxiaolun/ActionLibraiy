@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VideoSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group_home" horizontalCenter="0" verticalCenter="0" width="1920" height="1080" touchEnabled="false">
+		<e:Label id="label_name" text="测试标题" size="148" fontFamily="Microsoft YaHei" right="0" top="357"/>
+		<e:Button id="btn_start" label="" y="608" scaleX="2" scaleY="2" right="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="startXLBtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_setup" label="" scaleX="2" scaleY="2" right="117" top="829">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="setupImg_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="group_intro" touchEnabled="false" width="1920" height="1080" verticalCenter="0" horizontalCenter="0">
+		<e:Button id="btn_skip" label="" bottom="200" left="200">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="skipBtn_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

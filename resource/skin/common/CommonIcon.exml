@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonIconSkin" width="170" height="229" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c74eea106" ></w:Config>
+	<e:Image id="img_icon" width="170" height="170" top="0" horizontalCenter="0"/>
+	<e:Label id="label_name" text="啊哈哈" bottom="0" horizontalCenter="0" fontFamily="Microsoft YaHei" size="36" textColor="0x333333"/>
+</e:Skin>

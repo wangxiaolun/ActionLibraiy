@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonTableSkin" width="540" height="540" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16cb8dcdbda" ></w:Config>
+	<ns1:CommonTableItem id="touch_1" horizontalCenter="-180" verticalCenter="-180" name="touch_1"/>
+	<ns1:CommonTableItem id="touch_2" horizontalCenter="0" verticalCenter="-180" name="touch_2"/>
+	<ns1:CommonTableItem id="touch_3" verticalCenter="-180" horizontalCenter="180" name="touch_3"/>
+	<ns1:CommonTableItem id="touch_4" horizontalCenter="-180" verticalCenter="0" name="touch_4"/>
+	<ns1:CommonTableItem id="touch_5" horizontalCenter="0" verticalCenter="0" name="touch_5"/>
+	<ns1:CommonTableItem id="touch_6" horizontalCenter="180" verticalCenter="0" name="touch_6"/>
+	<ns1:CommonTableItem id="touch_7" horizontalCenter="-180" height="180" verticalCenter="180" name="touch_7"/>
+	<ns1:CommonTableItem id="touch_8" horizontalCenter="0" verticalCenter="180" name="touch_8"/>
+	<ns1:CommonTableItem id="touch_9" horizontalCenter="180" verticalCenter="180" name="touch_9"/>
+</e:Skin>

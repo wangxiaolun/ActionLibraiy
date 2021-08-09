@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonGameIconSkin" width="311" height="125" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c83d4c68d" ></w:Config>
+	<e:Image left="0" right="0" top="0" bottom="0" source="gameIconBg_png"/>
+	<e:Image id="icon" width="120" top="0" bottom="0" left="0"/>
+	<e:Label id="label_num" text="" fontFamily="Microsoft YaHei" bold="true" size="48" textColor="0xff0000" textAlign="center" top="10" left="120" right="0"/>
+	<e:Label id="label_time" text="" size="26" fontFamily="Microsoft YaHei" bold="true" top="62" textAlign="center" left="136" right="0"/>
+	<e:Label id="label_step" text="" top="92" size="24" fontFamily="Microsoft YaHei" left="120" right="0" textAlign="center"/>
+</e:Skin>

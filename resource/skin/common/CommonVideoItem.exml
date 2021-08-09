@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonVideoItemSkin" width="500" height="360" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16cf51b78bf" ></w:Config>
+	<e:Image id="img_videoBg" left="0" right="0" top="0" bottom="0"/>
+	<e:Image height="90" left="0" right="0" bottom="0"/>
+	<e:Button id="btn_play" label="" horizontalCenter="0" width="130" height="130" verticalCenter="-30"/>
+	<e:Label id="label_name" text="横扫千军" size="30" fontFamily="Microsoft YaHei" italic="true" bold="true" right="35" bottom="28"/>
+</e:Skin>

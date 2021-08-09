@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonKiteSkin" width="553" height="648" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="16cbdbae6b1" ></w:Config>
+	<ns1:CommonKiteItem id="kit1" horizontalCenter="0" verticalCenter="-248.5" name="kit1"/>
+	<ns1:CommonKiteItem id="kit2" verticalCenter="-86.5" name="kit2" horizontalCenter="-124.5"/>
+	<ns1:CommonKiteItem id="kit3" horizontalCenter="124.5" verticalCenter="-86.5" name="kit3"/>
+	<ns1:CommonKiteItem id="kit4" horizontalCenter="-200.5" verticalCenter="97.5" name="kit4"/>
+	<ns1:CommonKiteItem id="kit5" horizontalCenter="200.5" verticalCenter="97.5" name="kit5"/>
+	<ns1:CommonKiteItem id="kit6" verticalCenter="248.5" horizontalCenter="0" name="kit6"/>
+</e:Skin>

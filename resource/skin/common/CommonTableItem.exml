@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonTableItemSkin" width="180" height="180" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="square">
+			<tween:TweenItem target="{img_top}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" alpha="{1}" rotation="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="350" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}" alpha="{0.5}" rotation="{360}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="350" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" rotation="{0}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="16cb8e0abea" ></w:Config>
+	<e:Image id="img_bg" left="0" top="0" bottom="0" right="0" source="table_gray_1_png"/>
+	<e:Image id="img_top" width="179" height="179" horizontalCenter="0" verticalCenter="0" source="table_red_1_png"/>
+</e:Skin>

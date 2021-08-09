@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "Egret",
+            "request": "launch",
+            "name": "Egret Debugger",
+            "url": "http://localhost:${command:WebsitePort}",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true,
+            "userDataDir": "${tmpdir}"
+        },
+        {
+            "type": "Egret",
+            "request": "launch",
+            "name": "Egret WebpackDevServer Debugger",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "egret: build"
+        }
+    ],
+    "version": "0.2.0"
+}

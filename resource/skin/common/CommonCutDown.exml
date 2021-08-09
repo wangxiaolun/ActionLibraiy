@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonCutDownSkin" width="336" height="596" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c8e5cdde7" ></w:Config>
+	<e:Image id="img_icon" width="170" height="170" horizontalCenter="0" top="0" visible="false"/>
+	<e:Image source="DemonstrationBg_png" horizontalCenter="0" bottom="93"/>
+	<e:Image id="img_skip" horizontalCenter="0" bottom="0" source="skipBtn_png"/>
+	<e:Label id="label_name" text="Label" horizontalCenter="0" italic="true" textAlign="center" size="36" fontFamily="Microsoft YaHei" textColor="0x333333" top="180" visible="false"/>
+	<e:Label text="请做好准备。" textAlign="center" horizontalCenter="0" top="235" italic="true" bold="true" size="48" fontFamily="Microsoft YaHei" textColor="0x333333"/>
+	<e:Label id="label_step" text="STEP2/12" horizontalCenter="0" textAlign="center" top="338" fontFamily="Microsoft YaHei" italic="true" bold="true"/>
+	<e:Label id="label_time" text="08" horizontalCenter="0" textAlign="center" top="400" size="96" fontFamily="Microsoft YaHei" italic="true" bold="true" width="336"/>
+</e:Skin>

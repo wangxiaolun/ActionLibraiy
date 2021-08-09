@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        xmlns:common="common.*" class="LoginSkin">
+	<w:Config id="172ff85b40d" />
+	<e:Group id="group_logo" left="30" top="30" />
+	<e:Group id="group_btn" left="0" top="130" touchEnabled="false">
+		<e:Button id="btn_back" label="" enabled="true" verticalCenter="0" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="backBtn_png" source.down="backBtn_png" source.disabled="backBtn_png" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="btn_touch" width="150" height="150" source="wrightBg_png" alpha="0" verticalCenter="0"
+		         horizontalCenter="0" />
+	</e:Group>
+	<e:Label id="label_tip" text="训练即将开始 请就位做好准备" fontFamily="Microsoft YaHei" textColor="0x000000" horizontalCenter="0" top="320" size="55" bold="true" textAlign="center" verticalAlign="middle"/>
+	<ns1:CommonList id="iconList1"  verticalCenter="74" horizontalCenter="-588"/>
+	<ns1:CommonList id="iconList2"  verticalCenter="74" horizontalCenter="0"/>
+	<ns1:CommonList id="iconList3"  verticalCenter="74" horizontalCenter="588"/>
+	<e:Button id="btn_start" label="" horizontalCenter="0" top="850">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="startXLBtn_png" source.down="startXLBtn_png" source.disabled="startXLBtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="TeachSkin">
+	<e:Button id="btn_back" label="" top="40" width="60" height="66" scaleX="1.2" scaleY="1.2" right="50">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="backBtn_png" source.down="backBtn_png" source.disabled="backBtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:List id="list" width="1648" height="758" horizontalCenter="0" verticalCenter="0">
+		<e:layout>
+			<e:TileLayout verticalGap="38" horizontalGap="74" requestedRowCount="2" requestedColumnCount="3"/>
+		</e:layout>
+	</e:List>
+	<e:Button id="btn_pre" label="Button" x="594" y="973"/>
+	<e:Button id="btn_next" label="Button" x="1082" y="961"/>
+</e:Skin>

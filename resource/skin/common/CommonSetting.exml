@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonSettingSkin" width="525" height="672" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ui="ui.*" >
+	<w:Config id="16c75342ddf" ></w:Config>
+	<e:Image id="img_timeTitleBg" left="0" top="0"/>
+	<e:Image id="img_timeBg" left="0" right="0" bottom="0"/>
+	<ui:CommonSettingItem id="item_top" top="144" skinName="CommonSettingItemSkin" horizontalCenter="0"/>
+	<ui:CommonSettingItem id="item_center" top="321" horizontalCenter="0"/>
+	<ui:CommonSettingItem id="item_bottom" top="496" horizontalCenter="0"/>
+</e:Skin>

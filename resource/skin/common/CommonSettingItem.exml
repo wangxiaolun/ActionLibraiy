@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonSettingItemSkin" width="525" height="108" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16c75386d64" ></w:Config>
+	<e:Image source="editBg_png" top="40" horizontalCenter="0"/>
+	<e:Image id="btn_reduce" scale9Grid="12,12,1,1" verticalCenter="14" horizontalCenter="-195" scaleY="3" scaleX="3" source="checkReduce_png"/>
+	<e:Image id="btn_add" scale9Grid="0,0,25,25" verticalCenter="14" horizontalCenter="195" scaleY="3" scaleX="3" source="checkAdd_png"/>
+	<e:Label id="label_title" text="Label" size="36" fontFamily="Microsoft YaHei" textColor="0x3d3838" horizontalCenter="0" top="0"/>
+	<e:Label id="label_num" text="Label" size="36" fontFamily="Microsoft YaHei" textColor="0x333333" bottom="19" horizontalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonLinearSkin" width="432" height="108" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="scaleAni">
+			<tween:TweenItem target="{img_touch}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="300" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{0.5}" scaleY="{0.5}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="300" ease="bounceOut">
+					<tween:props>
+						<e:Object scaleX="{1.5}" scaleY="{1.5}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="200" ease="sineIn">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="16cbc5bcc5b" ></w:Config>
+	<e:Image id="img_touch" source="commonlinear_png" width="432" height="108" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>
