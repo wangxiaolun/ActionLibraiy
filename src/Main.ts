@@ -14,8 +14,8 @@ class Main extends eui.UILayer {
         var theme = new eui.Theme("resource/default.thm.json", this.stage);
         //游戏自定义容器添加到舞台上
         this.addChild(GameLayerManager.gameLayer());
-
-        //初始化Resource资源加载库
+ 
+        //初始化Resource资源加载库 。。。
         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
         RES.loadConfig("resource/resource.json", "resource/");
     }
